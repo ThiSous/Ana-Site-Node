@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "smtp": "node src",
-    "dev": "vite src",
-    "build": "vite build && vite build src",
+    "dev": "vite",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
