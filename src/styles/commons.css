@@ -1,0 +1,34 @@
+.text-red {
+    color: #a4002d;
+}
+
+a.text-red:hover {
+    color: #600009;
+}
+
+.bg-red {
+    background-color: #a4002d;
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+.button-white{
+    background-color: #ffffff;
+    color: #a4002d;
+}
+.button-white:hover{
+    color: #ffffff;
+}
+.border-red{
+    border-top: 1px solid #a4002d;
+    border-bottom: 1px solid #a4002d;
+}
+.card-text{
+    text-align: justify;
+}
