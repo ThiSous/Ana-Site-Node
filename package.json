@@ -6,7 +6,7 @@
   "scripts": {
     "smtp": "node src",
     "dev": "vite src",
-    "build": "vite build src && vite build src/pages",
+    "build": "vite build src",
     "preview": "vite preview src"
   },
   "devDependencies": {
