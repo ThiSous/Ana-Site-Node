@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "smtp": "node src",
-    "dev": "vite src",
-    "build": "vite build src",
-    "preview": "vite preview src"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
     "vite": "^3.0.7"
@@ -15,6 +15,7 @@
   "dependencies": {
     "@sendgrid/mail": "^7.7.0",
     "dotenv": "^16.0.1",
+    "glob": "^8.0.3",
     "nodemailer": "^6.7.8"
   }
 }
