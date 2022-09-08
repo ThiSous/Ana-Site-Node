@@ -1,10 +1,11 @@
 import sgMail from '@sendgrid/mail';
 export async function dispararEmail() {
-sgMail.setApiKey(process.env.SENDGRID_KEY);
+sgMail.setApiKey(import.meta.env.SENDGRID_KEY);
+console.log(import.meta.env)
     try {
         const msg = {
-            to: process.env.EMAIL_TO,
-            from: process.env.EMAIL_TO,
+            to: import.meta.env.EMAIL_TO,
+            from: import.meta.env.EMAIL_FROM,
             subject: "teste em site",
             text: "isso é um teste em site",
             html: '<strong>isso é um teste em site</strong>',
