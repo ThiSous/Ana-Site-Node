@@ -1,7 +1,7 @@
 import sgMail from '@sendgrid/mail';
 export async function dispararEmail() {
-sgMail.setApiKey(process.env.SENDGRID_KEY);
-console.log(process.env)
+sgMail.setApiKey(import.meta.env.SENDGRID_KEY);
+console.log(import.meta.env)
     try {
         const msg = {
             to: import.meta.env.EMAIL_TO,
